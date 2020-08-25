@@ -1,19 +1,19 @@
-<template>
+<template> 
   <header>
-    <h1>Skyline Ivy</h1>
+    <h1>SPHINX</h1>
     <nav>
       <ul>
         <li>
           <nuxt-link exact to="/">Home</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/all">All</nuxt-link>
+          <nuxt-link to="/collection">Collection</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/women">Women</nuxt-link>
+          <nuxt-link to="/shop">Shop</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/men">Men</nuxt-link>
+          <nuxt-link to="/about">About Us</nuxt-link>
         </li>
         <li>
           <div class="carttotal" v-if="cartCount > 0">{{ cartCount }}</div>
@@ -66,7 +66,7 @@ nav {
       a {
         color: black;
         &:hover {
-          color: #c14103;
+          color: #202020;
         }
       }
     }

@@ -1,7 +1,7 @@
 /*------------ Variables -----------*/
 
-$brandprimary: #d96528;
-$brandsecondary: #03c1c1;
+$brandprimary: #ffffff;
+$brandsecondary: #000000;
 
 /*------------  Global   -----------*/
 
@@ -74,7 +74,7 @@ button.purchase {
   font-size: 16px;
   border: none;
   &:hover {
-    background: #c14103;
+    background: #202020;
   }
 }
 
@@ -84,7 +84,7 @@ button.pay-with-stripe {
   font-size: 16px;
   border: none;
   &:hover {
-    background: #c14103;
+    background: #202020;
   }
 
   &:disabled {
